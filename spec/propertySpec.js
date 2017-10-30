@@ -1,3 +1,3 @@
-describe("XXX", function() {
+describe("", function() {
 
 });

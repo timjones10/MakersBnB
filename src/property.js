@@ -1,3 +1,3 @@
-function User() {
+function Property() {
 
 };
