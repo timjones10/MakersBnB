@@ -23,11 +23,15 @@
   <form id="form1">
     <p><label><span id="property"> Property title</span></label></p>
 
-    <input class="propertyTitle" type="text" placeholder="Property title" name="title" required>
+    <input class="propertyTitle" type="text" placeholder="Property title" name="propertyTitle" required>
 
     <p><label><span id="property"> Property description</span></label></p>
 
-    <input class="propertyDescription" type="text" placeholder="Property description" name="title" required>
+    <input class="propertyDescription" type="text" placeholder="Property description" name="propertyDescription" required>
+
+    <p><label><span id="price"> Price</span></label></p>
+
+    <input class="propertyPrice" type="text" placeholder="price" name="price" required>
 
 
     <p><button class=" w3-green" type="submit"> Register</button></p>
@@ -37,15 +41,17 @@
   <h1 id="display_property" target="_blank">
       <p id="property_title">title</p>
       <p id="property_description">description</p>
-
+      <p id="property_price">price</p>
     </h1>
 
   <script src="src/js/jquery-3.2.1.min.js">
   </script>
   <script src="src/interface.js">
   </script>
-
-
+  <script src="src/property.js">
+  </script>
+  <script src="src/user.js">
+  </script>
 </body>
 
 </html>
