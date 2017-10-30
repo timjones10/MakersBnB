@@ -1,5 +1,6 @@
 function User() {
   this._properties = []
+  this._requestedProperties = []
 };
 
 User.prototype.properties = function() {
@@ -8,4 +9,12 @@ User.prototype.properties = function() {
 
 User.prototype.addProperty = function(property) {
    this._properties.push(property);
+}
+
+User.prototype.requestProperty = function(property) {
+   this._requestedProperties.push(property);
+}
+
+User.prototype.requestedProperties = function() {
+  return this._requestedProperties;
 }
